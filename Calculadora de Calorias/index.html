@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Calculadora de Calorias Diárias</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Calculadora de Calorias</h1>
+  
+  <form id="calorie-form">
+    <label for="peso">Peso (kg):</label>
+    <input type="number" id="peso" name="peso" step="0.1" min="1" required />
+    
+    <label for="altura">Altura (cm):</label>
+    <input type="number" id="altura" name="altura" step="0.1" min="50" max="300" required />
+    
+    <label for="sexo">Sexo:</label>
+    <select id="sexo" name="sexo" required>
+      <option value="" disabled selected>Selecione o sexo</option>
+      <option value="masculino">Masculino</option>
+      <option value="feminino">Feminino</option>
+    </select>
+    
+    <label for="objetivo">Objetivo:</label>
+    <select id="objetivo" name="objetivo" required>
+      <option value="" disabled selected>Selecione o objetivo</option>
+      <option value="cutting">Cutting (perda de peso)</option>
+      <option value="offseason">Off Season (manutenção)</option>
+      <option value="bulking">Bulking (ganho de massa)</option>
+    </select>
+    
+    <label for="dias-treino">Dias que treina por semana:</label>
+    <input type="number" id="dias-treino" name="dias-treino" min="0" max="7" step="1" required />
+    
+    <label for="dias-descanso">Dias que descansa por semana:</label>
+    <input type="number" id="dias-descanso" name="dias-descanso" min="0" max="7" step="1" required />
+    
+    <button type="submit">Calcular</button>
+  </form>
+  
+  <div id="resultado" class="resultado" style="display:none;"></div>
+  
+  <script src="script.js"></script>
+</body>
+</html>

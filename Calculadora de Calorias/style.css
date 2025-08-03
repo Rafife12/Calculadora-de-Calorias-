@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #007BFF;
+  --secondary-color: #6C757D;
+  --accent-color: #28A745;
+  --dark-color: #0A0A0A;
+  --light-color: #FFFFFF;
+  --gray-100: #F8F9FA;
+  --gray-200: #E9ECEF;
+  --gray-300: #DEE2E6;
+  --gray-400: #CED4DA;
+  --gray-500: #ADB5BD;
+  --gray-600: #6C757D;
+  --gray-700: #495057;
+  --gray-800: #343A40;
+  --gray-900: #212529;
+  --border-radius: 12px;
+  --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--dark-color);
+  color: var(--light-color);
+  line-height: 1.6;
+  overflow-x: hidden;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 24px;
+  color: var(--primary-color);
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+input[type="number"], select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid var(--gray-600);
+  border-radius: var(--border-radius);
+  font-size: 1em;
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--light-color);
+  transition: var(--transition);
+}
+
+input[type="number"]:focus, select:focus {
+  outline: none;
+  border-color: var(--primary-color);
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: var(--primary-color);
+  color: var(--light-color);
+  font-weight: 600;
+  font-size: 1.1em;
+  border: none;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+button:hover {
+  background-color: #0056B3;
+}
+
+.resultado {
+  margin-top: 24px;
+  background: var(--gray-800);
+  padding: 16px;
+  border-radius: var(--border-radius);
+  text-align: center;
+  font-size: 1.2em;
+  color: var(--light-color);
+}
