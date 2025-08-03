@@ -23,7 +23,7 @@ Uma aplicação web simples que permite calcular o gasto calórico diário com b
    ```bash
    git clone https://github.com/seu-usuario/nome-do-repositorio.git
 
-📌 Cálculo Utilizado:
+## 📌 Cálculo Utilizado:
 
 A fórmula usada é a de Mifflin-St Jeor:
 Para homens: BMR = 10 × peso + 6.25 × altura − 5 × idade + 5
@@ -34,5 +34,5 @@ Em seguida, o valor é ajustado com base no nível de atividade (fator entre 1.2
 1.0 para manutenção (off season)
 1.2 para bulking (superávit calórico)
 
-✨ Autor:
+## ✨ Autor:
 Desenvolvido por Rafael Silva
