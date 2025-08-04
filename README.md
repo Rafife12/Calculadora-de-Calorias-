@@ -4,7 +4,7 @@ Uma aplicação web simples que permite calcular o gasto calórico diário com b
 
 ## 📌 Funcionalidades:
 
-- Entrada de dados para peso, altura, sexo, objetivo e rotina semanal.
+- Entrada de dados para peso, altura, sexo, objetivo e rotina semanal;
 - Validação automática dos campos do formulário.
 - Cálculo do BMR (Taxa Metabólica Basal) com a fórmula de Mifflin-St Jeor.
 - Ajuste com base no nível de atividade física;
