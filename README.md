@@ -14,7 +14,7 @@ Uma aplicação web simples que permite calcular o gasto calórico diário com b
 
 - **HTML5** – Estrutura da página
 - **CSS3** – Estilização responsiva e moderna com variáveis CSS
-- **JavaScript (Vanilla)** – Lógica do cálculo e manipulação do DOM
+- **JavaScript** – Lógica do cálculo e manipulação do DOM
 - **Google Fonts** – Tipografia com a fonte Inter
 
 ## 🛠 Como Usar
